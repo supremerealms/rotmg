@@ -14,8 +14,9 @@
   <script type="text/javascript">
     var flashvars = { env: "production" };
     var params = { wmode: "direct", quality: "low", bgcolor: "#000000" };
-    if(window.chrome)
-  swfobject.ua.pv = [100, 0, 0];  // we have FP v100, hoorray
+    if(window.chrome) {
+        swfobject.ua.pv = [100, 0, 0];
+    }
     swfobject.embedSWF(
       "rotmg.swf",
       "vlr",
